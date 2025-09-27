@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Ektian Ashiil Arrafah</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #fff;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background: #0d0d0d;
+      position: sticky;
+      top: 0;
+    }
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #e06e6e;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      gap: 30px;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #ccc;
+      font-size: 16px;
+    }
+    nav ul li a.active,
+    nav ul li a:hover {
+      color: #e06e6e;
+      border-bottom: 2px solid #e06e6e;
+      padding-bottom: 3px;
+    }
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 80px 10%;
+    }
+    .hero-text {
+      max-width: 50%;
+    }
+    .hero-text h1 {
+      font-size: 40px;
+      margin: 0;
+    }
+    .hero-text h1 span {
+      color: #e06e6e;
+    }
+    .hero-text h2 {
+      font-size: 28px;
+      margin: 10px 0;
+      color: #e06e6e;
+    }
+    .hero-text p {
+      margin: 15px 0 25px;
+      color: #ccc;
+      line-height: 1.6;
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin: 20px 0;
+    }
+    .social-icons a {
+      display: inline-block;
+      border: 1px solid #e06e6e;
+      padding: 10px;
+      border-radius: 50%;
+      color: #e06e6e;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      background: #e06e6e;
+      color: #0d0d0d;
+    }
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 2px solid #e06e6e;
+      border-radius: 30px;
+      color: #e06e6e;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #e06e6e;
+      color: #0d0d0d;
+    }
+    .hero-image {
+      max-width: 350px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 5px solid #e06e6e;
+      box-shadow: 0 0 40px rgba(224, 110, 110, 0.6);
+    }
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0d0d0d;
+      border-top: 1px solid #222;
+      color: #777;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">Ektian</div>
+    <ul>
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Skills</a></li>
+      <li><a href="#">Education</a></li>
+      <li><a href="#">Experience</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi, It's <span>Ektian</span></h1>
+      <h2>I'm a Software Developer</h2>
+      <p>
+        Saya <b>Ektian Ashiil Arrafah</b>, mahasiswa Polindra jurusan Rekayasa Perangkat Lunak. 
+        Saya tertarik pada pengembangan perangkat lunak, pemrograman, dan desain web modern.
+      </p>
+      <div class="social-icons">
+        <a href="#">in</a>
+        <a href="#">gh</a>
+        <a href="#">x</a>
+        <a href="#">ig</a>
+      </div>
+      <a href="#" class="btn">Hire me</a>
+    </div>
+
+    <div class="hero-image">
+      <!-- Foto dari Catbox -->
+      <img src="https://files.catbox.moe/6qkh6h.jpg" alt="Foto Profil">
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Ektian Ashiil Arrafah. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
