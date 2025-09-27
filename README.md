@@ -1,0 +1,2 @@
+# Portofolio-ektian
+Halo semuanya 
